@@ -1,0 +1,16 @@
+section.hero {
+    margin: 80px 0;
+
+    .container {
+        @include boundaries();
+
+        display: flex;
+    }
+
+    p {
+        color: rgb(154, 142, 191);
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        margin: 10px 0px 0px;
+    }
+}
